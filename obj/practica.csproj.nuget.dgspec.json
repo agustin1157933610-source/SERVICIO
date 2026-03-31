@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Prueba\\Documents\\CPS\\programa\\practica\\practica.csproj": {}
+    "C:\\Users\\domin\\OneDrive\\Desktop\\Practica\\SERVICIO\\practica.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Prueba\\Documents\\CPS\\programa\\practica\\practica.csproj": {
+    "C:\\Users\\domin\\OneDrive\\Desktop\\Practica\\SERVICIO\\practica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Prueba\\Documents\\CPS\\programa\\practica\\practica.csproj",
+        "projectUniqueName": "C:\\Users\\domin\\OneDrive\\Desktop\\Practica\\SERVICIO\\practica.csproj",
         "projectName": "practica",
-        "projectPath": "C:\\Users\\Prueba\\Documents\\CPS\\programa\\practica\\practica.csproj",
-        "packagesPath": "C:\\Users\\Prueba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Prueba\\Documents\\CPS\\programa\\practica\\obj\\",
+        "projectPath": "C:\\Users\\domin\\OneDrive\\Desktop\\Practica\\SERVICIO\\practica.csproj",
+        "packagesPath": "C:\\Users\\domin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\domin\\OneDrive\\Desktop\\Practica\\SERVICIO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Prueba\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\domin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
