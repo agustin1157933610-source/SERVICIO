@@ -24,4 +24,13 @@ class Suboficial : Personal
     }
 }
 
+class Oficial : Personal
+{
+    public override void presentarse()
+    {
+        Console.WriteLine($"Buen día, soy el: {grado} {nombre} {apellido}");
+        Console.WriteLine($"SOY EL JEFE DE LA PRODUCCION DE SOFTWARE DEL TPS Y ME ENCARGO DE LA GESTION DE PROYECTOS");
+    }
+}
+
 
