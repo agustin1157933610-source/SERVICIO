@@ -39,57 +39,62 @@ class Program
                 case 4:
                     MostrarRegistros();
                     break;
-                
+
             }
 
         } while (opcion != 0);
     }
 
     static void RegistrarPersonal()
-{
-    Console.WriteLine("\nSeleccione tipo de personal:");
-    Console.WriteLine("1. Soldado");
-    Console.WriteLine("2. Suboficial");
-    Console.WriteLine("3. Pasante");
-
-    int tipo = int.Parse(Console.ReadLine());
-
-    Personal? p = null;
-
-    switch (tipo)
     {
-        case 1:
-            p = new Soldado();
-            break;
+        Console.WriteLine("\nSeleccione tipo de personal:");
+        Console.WriteLine("1. Soldado");
+        Console.WriteLine("2. Suboficial");
+        Console.WriteLine("3. Pasante");
+        Console.WriteLine("4. Oficial");
 
-        case 2:
-            p = new Suboficial();
-            break;
+        int tipo = int.Parse(Console.ReadLine());
 
-        case 3:
-            p = new Pasante();
-            break;
+        Personal? p = null;
 
-        default:
-            Console.WriteLine("OPCION INCORRECTA 🤦‍♂️");
-            return;
+        switch (tipo)
+        {
+            case 1:
+                p = new Soldado();
+                break;
+
+            case 2:
+                p = new Suboficial();
+                break;
+
+            case 3:
+                p = new Pasante();
+                break;
+
+            case 4:
+                p = new Oficial();
+                break;
+
+            default:
+                Console.WriteLine("OPCION INCORRECTA 🤦‍♂️");
+                return;
+        }
+
+        Console.Write("Grado: ");
+        p.grado = Console.ReadLine();
+
+        Console.Write("Nombre: ");
+        p.nombre = Console.ReadLine();
+
+        Console.Write("Apellido: ");
+        p.apellido = Console.ReadLine();
+
+        personas.Add(p);
+
+        Console.WriteLine("bien te registraste🫡");
+        p.presentarse();
+
     }
-
-    Console.Write("Grado: ");
-    p.grado = Console.ReadLine();
-
-    Console.Write("Nombre: ");
-    p.nombre = Console.ReadLine();
-
-    Console.Write("Apellido: ");
-    p.apellido = Console.ReadLine();
-
-    personas.Add(p);
-
-    Console.WriteLine("bien te registraste🫡");
-    p.presentarse();
-     
-}
 
     static void RegistrarEntrada()
     {
